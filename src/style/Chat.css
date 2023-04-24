@@ -1,0 +1,141 @@
+/* Styling chat header */
+.chat__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 0vh 0vw 0vh 1vw;
+    padding-right: 1vw;
+    height: 10vh;
+    border-bottom: 1px solid lightgray;
+}
+
+.chat__header__info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.chat__header__avatar {
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.chat__header__details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.chat__header__details h3 {
+    padding-bottom: 1vh;
+}
+
+.chat__header__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+}
+
+/* Styling chat body */
+.chat__body {
+    height: 80vh;
+    overflow: auto;
+    margin: 0vh 1vw 0vh 1vw;
+}
+
+/* Styling chat footer */
+.chat__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 0vh 0vw 0vh 1vw;
+    padding-right: 1vw;
+    height: 10vh;
+    border-top: 1px solid lightgray;
+}
+
+.type_message__form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 1vh 1vw 1vh 1vw;
+    background-color: white;
+}
+
+.type_message__form input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.insert_emotion__icon {
+    padding: 1vh 1vw 1vh 1vw;
+    cursor: pointer;
+}
+
+.mic__icon {
+    padding: 1vh 1vw 1vh 1vw;
+    cursor: pointer;
+} 
+
+/*Styling for message*/
+
+.chat__message {
+    width: 100%;
+    margin: 1vh 0vw 1vh 0vw;
+    display: flex;
+}
+
+.message__container {
+    max-width: 40%;
+}
+
+.chat__message span {
+    font-size: 0.8rem;
+}
+
+.chat__message p {
+    padding: 1vh 1vw 1vh 1vw;
+    color: aliceblue;
+    border-radius: 0px 10px 10px 10px;
+}
+
+.chat__timestamp {
+    float: right;
+}
+
+/*Styling for message sender*/
+.sender {
+    justify-content: flex-end;
+}
+
+.sender .message__container {
+    padding-right: 1vw;
+}
+
+.sender p {
+    background-color: #006edb;
+    border-radius: 10px 0px 10px 10px;
+}
+
+/*Styling for message receiver*/
+.receiver {
+    justify-content: flex-start;
+}
+
+.receiver .message__container {
+    padding-left: 1vw;
+}
+
+.receiver p {
+    background-color: rebeccapurple;
+    border-radius: 10px 10px 0px 10px;
+}
+
+
+

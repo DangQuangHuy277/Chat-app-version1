@@ -1,0 +1,17 @@
+.sidebar__chat {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1vh 1vw 1vh 1vw;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    height: 17vh;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sidebar__chat__info {
+    margin-left: 1vw;
+}

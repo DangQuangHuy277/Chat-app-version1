@@ -1,0 +1,67 @@
+.sidebar {
+    width: 30%;
+    height: 100%;
+}
+
+.sidebar__header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 1vh 1vw 2vh 1vw;
+    border-bottom: 1px solid lightgray;
+    height: 10vh;
+}
+
+.user__infor {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-weight: 600;
+}
+
+.sidebar__header__icons {
+    margin-right: 1vw;
+}
+
+.sidebar__header img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Styling search bar */
+.sidebar__search {
+    display: flex;
+    align-items: center;
+    padding: 1vh 1vw 1vh 1vw;
+    border-bottom: 1px solid lightgray;
+    height: 10vh;
+    border-right: 1px solid lightgray;
+}
+
+.sidebar__search__container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1vh 1vw 1vh 1vw;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.sidebar__search input {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+/* Styling sidebar chat lists */
+
+.sidebar__chatlist {
+    overflow-y: auto;
+    height: 75vh;
+    border-right: 1px solid lightgray;
+}
+
+
